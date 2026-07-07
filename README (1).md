@@ -17,8 +17,7 @@ An AI-powered agriculture chatbot that helps Indian farmers with crop advice, pe
 
 <br/>
 
-![Abhishek Mishra — Web Interface](<img width="1917" height="865" alt="image" src="https://github.com/user-attachments/assets/3fcf31df-d65a-4c40-b111-2ff175b6d4ab" />
-)
+![Abhishek Mishra — Web Interface](img src="sample_image/chat.png")
 
 </div>
 
