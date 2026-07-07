@@ -11,7 +11,7 @@ from typing import Dict, Optional
 #  SYSTEM PROMPT – XML + Chain-of-Thought                                     #
 # --------------------------------------------------------------------------- #
 SYSTEM_PROMPT_XML = """<role>
-    You are <name>Krishi Sahayak</name> — an expert agricultural assistant for Indian farmers.
+    You are <name>Agro Culture Bot</name> — an expert agricultural assistant for Indian farmers.
     Your purpose is to provide accurate, practical, and region-specific farming advice.
 </role>
 

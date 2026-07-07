@@ -1,13 +1,13 @@
 /* ==========================================================================
-   Krishi Sahayak — Chat Application with Image Support
+   Agro Culture Bot — Chat Application with Image Support
    ========================================================================== */
 
 (function($) {
     'use strict';
 
     var WELCOME = '<div class="welcome">'
-        + '<div class="welcome-icon"><i class="bi bi-flower2"></i></div>'
-        + '<h3>Krishi Sahayak</h3>'
+        + '<div class="welcome-icon"><i class="bi bi-cpu"></i></div>'
+        + '<h3>Agro Culture Bot</h3>'
         + '<p>Your AI agriculture assistant. Ask anything about crops, pests, soil, or share a photo for diagnosis.</p>'
         + '<div class="chips">'
         + '<span class="chip" data-text="What is the best time to plant wheat in India?"><i class="bi bi-calendar3"></i> Wheat planting season</span>'
@@ -91,7 +91,7 @@
     // ── Messages ──
     function addMessage(text, type, cache, imageUrl) {
         var isUser = type === 'user';
-        var icon = isUser ? 'bi-person-fill' : 'bi-flower2';
+        var icon = isUser ? 'bi-person-fill' : 'bi-cpu';
         var imgTag = imageUrl ? '<img class="msg-img" src="' + imageUrl + '" alt="Shared image">' : '';
 
         if (isUser && $messages.find('.welcome').length) $messages.find('.welcome').remove();
@@ -167,7 +167,7 @@
         $audio.attr('src', src);
         $audio[0].play().catch(function() {});
         if ('Notification' in window && Notification.permission === 'granted') {
-            new Notification('Krishi Sahayak', { body: 'Voice response ready', icon: '/static/images/favicon.ico' });
+            new Notification('Agro Culture Bot', { body: 'Voice response ready', icon: '/static/images/favicon.ico' });
         }
     }
 
@@ -219,7 +219,7 @@
     // ── Toast ──
     function showToast(msg) {
         $('.toast-msg').remove();
-        var t = $('<div class="toast-msg"><i class="bi bi-info-circle me-1" style="color:var(--primary)"></i>' + esc(msg) + '</div>');
+        var t = $('<div class="toast-msg"><i class="bi bi-info-circle me-1" style="color:var(--cyan)"></i>' + esc(msg) + '</div>');
         $('body').append(t); t.fadeIn(200);
         setTimeout(function() { t.fadeOut(200, function() { $(this).remove(); }); }, 3000);
     }

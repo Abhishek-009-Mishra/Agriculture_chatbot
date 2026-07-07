@@ -6,9 +6,9 @@
     <title>Abhishek Mishra - AI Agriculture Assistant for Indian Farmers</title>
     <meta name="description" content="AI-powered agriculture assistant for Indian farmers. Get expert advice on crops, pest control, soil health, weather, government schemes, and farming practices. Supports voice, text, and image analysis.">
     <meta name="keywords" content="agriculture, farming, India, crops, pest control, soil health, AI assistant, chatbot, Kharif, Rabi, Zaid, wheat, rice, paddy, PM-KISAN, fertilizers, irrigation">
-    <meta name="author" content="Mohammed Ashraf">
+    <meta name="author" content="Abhishek Mishra">
     <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#0a1628">
+    <meta name="theme-color" content="#05080f">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://llm-agri-bot.onrender.com/">
@@ -16,19 +16,19 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://llm-agri-bot.onrender.com/">
-    <meta property="og:title" content="Krishi Sahayak - AI Agriculture Assistant for Indian Farmers">
+    <meta property="og:title" content="Agro Culture Bot - AI Agriculture Assistant for Indian Farmers">
     <meta property="og:description" content="Get expert AI-powered advice on crops, pest control, soil health, weather, and government schemes. Supports voice, text, and image-based crop disease diagnosis.">
     <meta property="og:image" content="https://llm-agri-bot.onrender.com/static/images/og-image.png">
-    <meta property="og:site_name" content="Krishi Sahayak">
+    <meta property="og:site_name" content="Agro Culture Bot">
     <meta property="og:locale" content="en_IN">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://llm-agri-bot.onrender.com/">
-    <meta name="twitter:title" content="Krishi Sahayak - AI Agriculture Assistant">
+    <meta name="twitter:title" content="Agro Culture Bot - AI Agriculture Assistant">
     <meta name="twitter:description" content="AI-powered agriculture assistant for Indian farmers. Voice, text, and image-based crop advisory.">
     <meta name="twitter:image" content="https://llm-agri-bot.onrender.com/static/images/og-image.png">
-    <meta name="twitter:creator" content="@mohammed97ashraf">
+    <meta name="twitter:creator" content="@AbhishekMishra">
 
     <!-- AI Crawlers -->
     <meta name="llms-txt" content="/llms.txt">
@@ -39,7 +39,7 @@
     {
         "@context": "https://schema.org",
         "@type": "WebApplication",
-        "name": "Krishi Sahayak",
+        "name": "Agro Culture Bot",
         "alternateName": "AI Agriculture Assistant",
         "url": "https://llm-agri-bot.onrender.com",
         "description": "AI-powered agriculture assistant for Indian farmers. Get expert advice on crops, pest control, soil health, weather, and government schemes.",
@@ -52,12 +52,7 @@
         },
         "author": {
             "@type": "Person",
-            "name": "Mohammed Ashraf",
-            "url": "https://www.linkedin.com/in/mohammed97ashraf",
-            "sameAs": [
-                "https://github.com/mohammed97ashraf",
-                "https://www.linkedin.com/in/mohammed97ashraf"
-            ]
+            "name": "Abhishek Mishra"
         },
         "inLanguage": ["en", "hi"],
         "featureList": [
@@ -78,26 +73,26 @@
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "What is Krishi Sahayak?",
+                "name": "What is Agro Culture Bot?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Krishi Sahayak is an AI-powered agriculture assistant that helps Indian farmers with crop advice, pest control, soil health, weather information, and government schemes."
+                    "text": "Agro Culture Bot is an AI-powered agriculture assistant that helps Indian farmers with crop advice, pest control, soil health, weather information, and government schemes."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Can Krishi Sahayak diagnose crop diseases from photos?",
+                "name": "Can Agro Culture Bot diagnose crop diseases from photos?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, you can upload a photo of your crops and Krishi Sahayak will analyze it using AI vision to identify diseases, pests, and nutrient deficiencies."
+                    "text": "Yes, you can upload a photo of your crops and Agro Culture Bot will analyze it using AI vision to identify diseases, pests, and nutrient deficiencies."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Is Krishi Sahayak free to use?",
+                "name": "Is Agro Culture Bot free to use?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, Krishi Sahayak is completely free to use. It provides AI-powered agricultural advisory at no cost."
+                    "text": "Yes, Agro Culture Bot is completely free to use. It provides AI-powered agricultural advisory at no cost."
                 }
             }
         ]
@@ -115,9 +110,9 @@
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
     <link rel="icon" type="image/png" sizes="192x192" href="{{ url_for('static', filename='images/favicon.ico') }}">
     <link rel="apple-touch-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
-    <link rel="alternate" hreflang="en" href="https://krishisahayak.vercel.app/">
-    <link rel="alternate" hreflang="hi" href="https://krishisahayak.vercel.app/?lang=hi">
-    <link rel="author" href="https://github.com/mohammed97ashraf">
+    <link rel="alternate" hreflang="en" href="/">
+    <link rel="alternate" hreflang="hi" href="/?lang=hi">
+    <link rel="author" href="/">
     <link rel="manifest" href="{{ url_for('static', filename='manifest.webmanifest') }}">
 </head>
 <body>
@@ -126,8 +121,8 @@
     <nav class="navbar">
         <div class="nav-inner">
             <a class="brand" href="/">
-                <span class="brand-icon"><i class="bi bi-flower2"></i></span>
-                <span>Krishi Sahayak</span>
+                <span class="brand-icon"><i class="bi bi-cpu"></i></span>
+                <span>Agro Culture Bot</span>
             </a>
             <div class="nav-actions">
                 <button class="nav-btn" id="clearBtn" title="Clear conversation">
@@ -147,9 +142,9 @@
             <!-- Header -->
             <div class="card-header">
                 <div class="header-left">
-                    <div class="avatar"><i class="bi bi-flower2"></i></div>
+                    <div class="avatar"><i class="bi bi-cpu"></i></div>
                     <div>
-                        <h5>Krishi Sahayak</h5>
+                        <h5>Agro Culture Bot</h5>
                         <span class="status"><i class="bi bi-circle-fill"></i> Online</span>
                     </div>
                 </div>
@@ -157,7 +152,9 @@
             </div>
 
             <!-- Messages -->
-            <div class="messages" id="chatMessages"></div>
+            <div class="messages" id="chatMessages">
+                <!-- Welcome screen injected by JS, but kept here as fallback -->
+            </div>
 
             <!-- Typing -->
             <div class="typing" id="typingIndicator">
@@ -197,12 +194,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>Made with <i class="bi bi-heart-fill footer-heart"></i> by
-            <a href="https://www.linkedin.com/in/mohammed97ashraf" target="_blank" rel="noopener">Mohammed Ashraf</a>
-            &middot;
-            <a href="https://github.com/mohammed97ashraf" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
-            <a href="https://www.linkedin.com/in/mohammed97ashraf" target="_blank" rel="noopener" class="ms-1" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-        </p>
+        <p>Made with <i class="bi bi-heart-fill footer-heart"></i> by Abhishek Mishra</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

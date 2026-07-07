@@ -1,6 +1,6 @@
 {
-    "name": "Krishi Sahayak - AI Agriculture Assistant",
-    "short_name": "Krishi Sahayak",
+    "name": "Agro Culture Bot - AI Agriculture Assistant",
+    "short_name": "Agro Culture Bot",
     "description": "AI-powered agriculture assistant for Indian farmers. Get expert advice on crops, pest control, soil health, weather, and government schemes.",
     "start_url": "/",
     "display": "standalone",

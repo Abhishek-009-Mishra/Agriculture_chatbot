@@ -1,6 +1,6 @@
 <div align="center">
 
-# Krishi Sahayak
+# Abhishek 
 
 ### AI Agriculture Assistant for Indian Farmers
 
