@@ -1,0 +1,76 @@
+# Vercel Ignore - Exclude files from deployment
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env.local
+
+# Development files
+*.log
+*.pid
+
+# Test files
+tests/
+test_*.py
+*_test.py
+
+# Documentation (not needed in production)
+README*.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+CHANGELOG.md
+ARCHITECTURE.md
+API_DOCS.md
+DEPLOYMENT_GUIDE.md
+LICENSE.txt
+
+# Docker files (not needed for Vercel)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Render config (not needed for Vercel)
+render.yaml
+gunicorn.conf.py
+
+# Sample images (large files)
+Sample_image/
+
+# User uploads (will be stored elsewhere or regenerated)
+uploads/
+app/static/audio/*.wav
+app/static/audio/*.mp3
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# UV/Poetry
+uv.lock
+poetry.lock
+pyproject.toml

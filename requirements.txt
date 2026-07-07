@@ -1,0 +1,20 @@
+# =============================================================================
+# LLM Agri Bot - Python Dependencies
+# =============================================================================
+# This file is for Vercel serverless deployment
+#
+# Core
+flask>=3.1.3
+python-dotenv>=1.0.1
+
+# LLM (Groq SDK)
+groq>=0.30.0
+
+# Redis (conversation memory)
+redis>=5.2.0
+
+# HTTP / API
+requests>=2.32.0
+
+# Vercel serverless compatibility
+werkzeug>=3.0.0
