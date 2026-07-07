@@ -11,13 +11,14 @@
 [![Deploy](https://img.shields.io/badge/Deploy-Render-41E065?style=flat-square&logo=render&logoColor=white)](https://llm-agri-bot.onrender.com)
 [![uv](https://img.shields.io/badge/uv-Package_Manager-DE5FE9?style=flat-square&logo=uv&logoColor=white)](https://docs.astral.sh/uv/)
 
-**Live Demo → [llm-agri-bot.onrender.com](https://llm-agri-bot.onrender.com)**
+**Live Demo → [llm-agri-bot.onrender.com]()**
 
 An AI-powered agriculture chatbot that helps Indian farmers with crop advice, pest control, soil health, weather, and government schemes — using text, voice, and image analysis.
 
 <br/>
 
-![Krishi Sahayak — Web Interface](Sample_image/chat-interface.png)
+![Abhishek Mishra — Web Interface](<img width="1917" height="865" alt="image" src="https://github.com/user-attachments/assets/3fcf31df-d65a-4c40-b111-2ff175b6d4ab" />
+)
 
 </div>
 
@@ -36,7 +37,6 @@ An AI-powered agriculture chatbot that helps Indian farmers with crop advice, pe
 | Dark/Light Theme | Glassmorphism UI with one-click theme toggle |
 | Multilingual | Responds in English, Hindi, or Hinglish |
 
-![Krishi Sahayak — Voice Chat on Mobile](Sample_image/chat-2.png)
 
 ---
 
